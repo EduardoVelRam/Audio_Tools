@@ -88,6 +88,7 @@ with col2:
         step=5
     )
 
+loop_audio = st.checkbox("Reproducir en bucle")
 
 # Convert slider values to Edge TTS format
 
@@ -134,7 +135,11 @@ if st.button("Generate audio", type="primary"):
         with open(output_file, "rb") as audio_file:
             audio_data = audio_file.read()
 
-        st.audio(audio_data, format="audio/mp3")
+        st.audio(
+            audio_data,
+            format="audio/mp3",
+            loop=loop_audio
+        )
 
         # Download button
         st.download_button(
