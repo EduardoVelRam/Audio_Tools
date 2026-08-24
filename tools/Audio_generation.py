@@ -25,11 +25,11 @@ st.write("Convert text into speech using Microsoft Edge voices.")
 # --------------------------------------------------
 
 VOICES = {
+    "Spanish - Mexico - Jorge": "es-MX-JorgeNeural",
     "English - US - Jenny": "en-US-JennyNeural",
     "English - US - Guy": "en-US-GuyNeural",
     "English - UK - Sonia": "en-GB-SoniaNeural",
     "Spanish - Mexico - Dalia": "es-MX-DaliaNeural",
-    "Spanish - Mexico - Jorge": "es-MX-JorgeNeural",
     "Spanish - Spain - Elvira": "es-ES-ElviraNeural",
     "French - France - Denise": "fr-FR-DeniseNeural",
     "German - Germany - Katja": "de-DE-KatjaNeural",
