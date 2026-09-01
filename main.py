@@ -8,7 +8,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Tools collection")
+st.title("Audio Tools")
 
 CARPETA = "tools"
 

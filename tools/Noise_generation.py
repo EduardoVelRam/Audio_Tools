@@ -5,9 +5,9 @@ import wave
 
 
 def run():
-    st.title("Audio Generation TTS")
+    st.title("Noise Generation")
 
-    st.write("Here goes the code")
+    st.write("This is for generate grey, pink and brown noise.")
 
     # --------------------------------------------------
     # Configuration
@@ -15,12 +15,9 @@ def run():
 
     st.set_page_config(
         page_title="Noise Generator",
-        page_icon="N",
         layout="centered"
     )
 
-    st.title("Noise Generator")
-    st.write("Generate white, pink or brown noise.")
 
 
     # --------------------------------------------------

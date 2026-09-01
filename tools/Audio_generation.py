@@ -9,16 +9,12 @@ import streamlit as st
 def run():
     st.title("Audio Generation TTS")
 
-    st.write("Here goes the code")
+    st.write("This is for generate audio from text. It can be saved or played in loop in different voices and languages.")
 
     st.set_page_config(
         page_title="Text-to-Speech",
-        page_icon="🔊",
         layout="centered"
     )
-
-    st.title("Text-to-Speech")
-    st.write("Convert text into speech using Microsoft Edge voices.")
 
 
     # --------------------------------------------------
